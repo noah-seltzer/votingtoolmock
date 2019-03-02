@@ -45,7 +45,7 @@ namespace votingtool_mock.Controllers
         public ActionResult<string> Get(int id)
         {
             return @"{
-  ""VoteTitle"": ""BC Provincial Election"",
+  ""VoteTitle"": ""B.C. Provincial Election"",
   ""VoteDescription"": ""Elect members of the Legislative Assembly in the province of British Columbia"",
   ""VoteDate"": """",
   ""PageBackgroundColor"": ""#FFFFFF"",
