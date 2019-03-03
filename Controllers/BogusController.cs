@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Cors;
 
 namespace votingtool_mock.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("AuthPolicy")]
     public class BogusController : ControllerBase
     {
-        // GET api/bogus/candidates
+        // GET api/values
         [HttpGet("candidates")]
         public ActionResult<string> Get()
         {
@@ -42,11 +40,11 @@ namespace votingtool_mock.Controllers
             return a ;
         }
 
-        // GET api/bogus/election
+        // GET api/values/5
         [HttpGet("election")]
         public ActionResult<string> Get(int id)
         {
-            return @"{
+            return @"[{
 	""VoteTitle"": ""Canadian Federal Election 2020"",
 	""VoteDescription"": ""Elect members of the Legislative Assembly in Canada"",
 	""VoteDate"": ""December 25, 2019"",
@@ -56,7 +54,18 @@ namespace votingtool_mock.Controllers
 	""LogoURL"": ""https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png"",
 	""PageFontSize"": ""0.8em"",
 	""PageFontFamily"": ""Comic Sans""
-}";
+},
+{
+  ""VoteTitle"": ""B.C. Provincial Election"",
+  ""VoteDescription"": ""Elect members of the Legislative Assembly in the province of British Columbia"",
+  ""VoteDate"": """",
+  ""PageBackgroundColor"": ""#FFFFFF"",
+  ""PageBackgroundColorSecondary"": ""#E60050"",
+  ""PageTextColor"": ""#000000"",
+  ""LogoURL"": ""https://vancouver.ca/images/cov/feature/covlogo-share.png"",
+  ""PageFontSize"": ""1.5em"",
+  ""PageFontFamily"": ""Helvetica""
+}]";
         }
     }
 }
