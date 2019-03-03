@@ -49,6 +49,7 @@ namespace votingtool_mock
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseCors("AuthPolicy"); 
         }
     }
 }
