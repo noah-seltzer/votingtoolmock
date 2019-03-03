@@ -72,7 +72,7 @@ namespace votingtool_mock.Controllers
   ""VoteDate"": ""March 31, 2019"",
   ""PageBackgroundColor"": ""#CCFFCC"",
   ""PageBackgroundColorSecondary"": ""#E60050"",
-  ""PageTextColor"": ""#000000"",
+  ""PageTextColor"": ""#0c10f9"",
   ""LogoURL"": ""https://www.turningtechnologies.ca/wp-content/uploads/2016/04/bcit-logo.png"",
   ""PageFontSize"": ""1em"",
   ""PageFontFamily"": ""Roboto""
@@ -83,7 +83,7 @@ namespace votingtool_mock.Controllers
   ""VoteDate"": ""October 22, 2018"",
   ""PageBackgroundColor"": ""#FF0000"",
   ""PageBackgroundColorSecondary"": ""#E60050"",
-  ""PageTextColor"": ""#FFFFFF"",
+  ""PageTextColor"": ""#fffb16"",
   ""LogoURL"": ""https://www.underconsideration.com/brandnew/archives/city_of_vancouver_logo.png"",
   ""PageFontSize"": ""2em"",
   ""PageFontFamily"": ""Arial""
