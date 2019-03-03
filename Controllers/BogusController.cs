@@ -45,15 +45,15 @@ namespace votingtool_mock.Controllers
         public ActionResult<string> Get(int id)
         {
             return @"[{
-	""VoteTitle"": ""Canadian Federal Election 2020"",
-	""VoteDescription"": ""Elect members of the Legislative Assembly in Canada"",
-	""VoteDate"": ""December 25, 2019"",
-	""PageBackgroundColor"": ""#99CCFF"",
-	""PageBackgroundColorSecondary"": ""#E60050"",
-	""PageTextColor"": ""#990000"",
-	""LogoURL"": ""https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png"",
-	""PageFontSize"": ""0.8em"",
-	""PageFontFamily"": ""Comic Sans""
+  ""VoteTitle"": ""Canadian Federal Election 2020"",
+  ""VoteDescription"": ""Elect members of the Legislative Assembly in Canada"",
+  ""VoteDate"": ""December 25, 2019"",
+  ""PageBackgroundColor"": ""#99CCFF"",
+  ""PageBackgroundColorSecondary"": ""#E60050"",
+  ""PageTextColor"": ""#990000"",
+  ""LogoURL"": ""https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Flag_of_Canada.svg/1280px-Flag_of_Canada.svg.png"",
+  ""PageFontSize"": ""0.8em"",
+  ""PageFontFamily"": ""Comic Sans""
 },
 {
   ""VoteTitle"": ""B.C. Provincial Election"",
