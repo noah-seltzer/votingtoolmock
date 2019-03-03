@@ -8,6 +8,7 @@ namespace votingtool_mock.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AuthPolicy")]
     public class BogusController : ControllerBase
     {
         // GET api/values
