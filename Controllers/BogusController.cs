@@ -83,7 +83,7 @@ namespace votingtool_mock.Controllers
   ""VoteDate"": ""October 22, 2018"",
   ""PageBackgroundColor"": ""#FF0000"",
   ""PageBackgroundColorSecondary"": ""#E60050"",
-  ""PageTextColor"": ""#fffb16"",
+  ""PageTextColor"": ""#027a16"",
   ""LogoURL"": ""https://www.underconsideration.com/brandnew/archives/city_of_vancouver_logo.png"",
   ""PageFontSize"": ""2em"",
   ""PageFontFamily"": ""Arial""
